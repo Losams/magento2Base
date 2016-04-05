@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<global xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Base/etc/pagefield.xsd">
+    <tabs id="tplHome" label="Home fields" template='homepage'>
+        <fields name="home_youtube_video" type="text" label="URL de la vidéo de démonstration" />
+        <fields name="home_password_forgotten_link" type="text" label="Lien vers la page mot de passe oublié" />
+        <fields name="home_register_link" type="text" label="Lien vers la page inscription" />
+        <fields name="home_ios_app" type="text" label="Lien vers l'application pour Iphone" />
+        <fields name="home_android_app" type="text" label="Lien vers l'application pour Android" />
+        <fields name="home_form_desc" type="textarea" label="Description formulaire login" />
+        <fields name="home_footer_contact" type="text" label="Lien footer contact" />
+        <fields name="home_footer_pro" type="text" label="Lien footer site pro" />
+        <fields name="home_footer_prescripteur" type="text" label="Lien footer site prescripteur" />
+        <fields name="home_footer_particulier" type="text" label="Lien footer site particulier" />
+    </tabs>
+</global>

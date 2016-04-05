@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceBlock name="cms_page_edit_tabs">
+        <block class="Zero\Base\Block\Adminhtml\Page\Edit\Tab\Custom" name="cms_page_edit_tab_custom"/>
+        <action method="addTab">
+            <argument name="name" xsi:type="string">custom_section</argument>
+            <argument name="block" xsi:type="string">cms_page_edit_tab_custom</argument>
+        </action>
+    </referenceBlock>
+</page>

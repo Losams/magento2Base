@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<global xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Base/etc/pagetemplate.xsd">
+    <templates id="tplHome">
+    	<template name="homepage" path="Zero_Theme::homepage.phtml" />
+    </templates>
+</global>

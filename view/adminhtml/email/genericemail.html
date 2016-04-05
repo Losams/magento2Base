@@ -1,0 +1,16 @@
+<!--@subject {{var subject}} @-->
+<!--@vars {
+"var subject":"Subject",
+"var message":"Message",
+"var params":"Params"
+} @-->
+
+<h1>{{var subject}}</h1>
+
+<div>
+    {{var message.format('html')|raw}}
+</div>
+
+<div>
+    {{var params.format('html')|raw}}
+</div>
